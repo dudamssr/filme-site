@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #e6f7ff;
+  background-color: #c9eafb;
   color: #023033;
 }
 
@@ -9,14 +9,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f5f6f;
+  background-color: #0c5260;
   padding: 10px 20px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 nav h1 {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 nav ul {
@@ -36,28 +36,34 @@ nav a {
 header {
   text-align: center;
   padding: 40px 20px;
-  background-color: #bfefff;
+  background-color: #96cee0;
+}
+
+.card h3{
+    color: #0b5665;
 }
 
 .cards {
+  color: #0f5f6f;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 30px 20px;
+  margin-top: 20px;
 }
 
 .card {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 20px;
   width: 250px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.2s;
+  text-align: left;
 }
 
 .card:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 footer {
